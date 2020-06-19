@@ -5,4 +5,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   has_one :launch
+
+  def launch?
+    self.launch.present? ? true : false
+  end
 end
