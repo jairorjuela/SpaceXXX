@@ -25,3 +25,10 @@ This application is created with Rails 5.2.
         config.include Shoulda::Matchers::ActiveModel,  type: :model
         config.include Shoulda::Matchers::ActiveRecord, type: :model
       ```
+
+## Add Devise for Users.
+
+  1. Add `gem 'devise'`
+  2. Add generator `rails generate devise:install`
+  3. Create the Model for Users
+  4. Run `rails db:migrate`
