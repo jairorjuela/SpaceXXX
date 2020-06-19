@@ -35,5 +35,5 @@ This application is created with Rails 5.2.
 
 ## Create Model
 
-  `rails generate model Launch article:string video:string success:boolean name:string image:string`
-
+  1. `rails generate model Launch article:string video:string success:boolean name:string image:string`
+  2. Add relation with user, one user has_one a launch
