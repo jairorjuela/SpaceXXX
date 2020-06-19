@@ -62,6 +62,14 @@ RSpec.configure do |config|
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
 
+  #config to DEVISE
+    config.expect_with :rspec do |c|
+      c.syntaxis = :expect
+    end
+
+  config.include Devise::Test::ControlerHelpers, :type => :controler
+  config.include Warden::Test::Helpers
+
   config.include FactoryBot::Syntax::Methods
   config.include Shoulda::Matchers::ActiveModel,  type: :model
   config.include Shoulda::Matchers::ActiveRecord, type: :model
