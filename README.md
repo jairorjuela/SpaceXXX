@@ -37,3 +37,17 @@ This application is created with Rails 5.2.
 
   1. `rails generate model Launch article:string video:string success:boolean name:string image:string`
   2. Add relation with user, one user has_one a launch
+
+# Tiempo
+
+  1. Documentación sobre las dos Apps -- 1hora
+  2. Implementación App Github -- 30 min
+  3. Creación del boilerplate con lo necesario para pruebas App SpaceX -- 1 hora
+  4. Implementación App SpaceX --30 min
+  5. Elegí SpaceX porque ya estaba corto de tiempo y no pude desarrollar la de GitHub
+
+# Prolemas
+
+  1. Fue complejo implementar lo de github por temas de autenticacion, para que cualquier usuario pueda logearse y aurtorizar, para manejar errores con ramas y PR
+  2. Dejé ir el tiempo y me dejé llevar sin darme cuenta de la hora
+  3. Al final ya estaba sobre el tiempo y no me dejó procesar de la manera más correcta
