@@ -32,3 +32,8 @@ This application is created with Rails 5.2.
   2. Add generator `rails generate devise:install`
   3. Create the Model for Users
   4. Run `rails db:migrate`
+
+## Create Model
+
+  `rails generate model Launch article:string video:string success:boolean name:string image:string`
+
